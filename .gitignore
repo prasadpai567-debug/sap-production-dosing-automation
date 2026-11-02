@@ -1,0 +1,20 @@
+# Never commit production workbooks, compiled VBA projects, or operational documents.
+*.xlsm
+*.xlsb
+*.xls
+*.bin
+*.pdf
+*.xlsx
+!examples/input-template.xlsx
+
+# Local analysis and generated artifacts.
+work/
+outputs/
+.DS_Store
+Thumbs.db
+
+# Credentials and local configuration.
+*.env
+*.ini
+*.config
+secrets/
