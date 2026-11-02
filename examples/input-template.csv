@@ -1,0 +1,3 @@
+Order Number,Finished Material,Raw Material,Batch Number,Quantity,Unit,Yield Quantity,Final Brix %
+ORD-DEMO-001,FG-DEMO-100,RM-DEMO-001,BATCH-DEMO-01,7200,KG,11000,66.5
+ORD-DEMO-001,FG-DEMO-100,RM-DEMO-002,BATCH-DEMO-02,2.4,L,11000,66.5
