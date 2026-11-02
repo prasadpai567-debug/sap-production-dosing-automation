@@ -1,11 +1,12 @@
-# Never commit production workbooks, compiled VBA projects, or operational documents.
+# Never commit production workbooks, compiled VBA projects, operational documents, or private exports.
 *.xlsm
 *.xlsb
 *.xls
 *.bin
 *.pdf
 *.xlsx
-!examples/input-template.xlsx
+*.csv
+!examples/input-template.csv
 
 # Local analysis and generated artifacts.
 work/
@@ -13,8 +14,15 @@ outputs/
 .DS_Store
 Thumbs.db
 
-# Credentials and local configuration.
+# Credentials, certificates, and local configuration.
+.env
+.env.*
 *.env
 *.ini
 *.config
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.*
 secrets/
